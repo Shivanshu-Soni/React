@@ -1,11 +1,11 @@
+import "./App.css";
 
-import './App.css';
-import ApiCall from './Components/ApiCall';
+import EffectApp from "./UseEffect/EffectApp";
 
 function App() {
   return (
     <div className="App">
-      <ApiCall/>
+      <EffectApp/>
     </div>
   );
 }
